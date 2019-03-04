@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <header>
+    <h1>Bull and Bear Menu</h1>
+    <p>Hire from RoboJobs and get extra awesome sauce with every recruit!</p>
+
+  </header>
+  <section class="robotsAreCool">
+    {{#menuItems}}
+    <section class="robots">
+    <a href="/{{itemName}}"><h2>{{itemName}}</h2>
+
+        <div><img class="userAv" src="{{itemImage}}" alt=""></div>
+        <h3 class="job">{{itemDescription}}</h3>
+        <!-- {{#skills}}{{.}}, {{/skills}} -->
+      </section>
+    </a>
+    {{/menuItems}}
+
+</section>
+</body>
+</html>

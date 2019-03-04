@@ -1,0 +1,13 @@
+menuName:"Breakfast",
+ menuDescription: "(Served Mon-Fri 7:00AM -10:30AM & Weekends 8:00AM - 1:00PM)",
+ itemChoices: [
+
+{menuName:"Trend Setters",
+  menuDescription:"Our Quality Angus Burgers, Served with Fries (Side of soup for $1.50 or Onion Rings $2.25)",
+  itemChoices:[
+
+
+  menuName:"Big Board Items",
+   menuDescription:"Served with Chips and Pickle (Side of Soup for $1.50 or Onion Ring for $2.25)",
+   itemChoices:[
+     {
