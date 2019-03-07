@@ -17,9 +17,11 @@ app.get('/', function(req, res){
 
   res.render('home', dataFile)
 });
-
+// app.get('/home', function(req, res){
+//     res.render('home', dataFile);
+//   });
 app.get('/events', function(req, res){
-    res.send('events', dataFile);
+    res.render('events', dataFile);
   });
 
 app.get('/menu', function(req, res){
