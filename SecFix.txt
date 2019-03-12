@@ -1,0 +1,5 @@
+need to sanitize bool to on in marked and update clients
+
+sanitize will fix vulnerability that allows xss (cross site scripting) 
+
+this will help prevent others from writing to our code when live
